@@ -43,3 +43,8 @@ docroot/sites/*/private
 ehthumbs.db
 Icon?
 Thumbs.db
+
+# Vagrant Files
+.vagrant
+index.html
+phpinfo.php
