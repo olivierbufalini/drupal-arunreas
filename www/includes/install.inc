@@ -204,6 +204,7 @@ function drupal_install_profile_distribution_name() {
   else {
     $profile = drupal_get_profile();
     $info = system_get_info('module', $profile);
+    if ( ! array_key_exists('distribution_name', $info)) $info['distribution_name'] = 'Drupal';
     return $info['distribution_name'];
   }
 }
@@ -741,27 +742,20 @@ function drupal_install_system() {
 }
 
 /**
- * Uninstalls a given list of disabled modules.
+ * Uninstalls a given list of modules.
  *
- * @param array $module_list
- *   The modules to uninstall. It is the caller's responsibility to ensure that
- *   all modules in this list have already been disabled before this function
- *   is called.
- * @param bool $uninstall_dependents
- *   (optional) If TRUE, the function will check that all modules which depend
- *   on the passed-in module list either are already uninstalled or contained in
- *   the list, and it will ensure that the modules are uninstalled in the
- *   correct order. This incurs a significant performance cost, so use FALSE if
- *   you know $module_list is already complete and in the correct order.
- *   Defaults to TRUE.
+ * @param $module_list
+ *   The modules to uninstall.
+ * @param $uninstall_dependents
+ *   If TRUE, the function will check that all modules which depend on the
+ *   passed-in module list either are already uninstalled or contained in the
+ *   list, and it will ensure that the modules are uninstalled in the correct
+ *   order. This incurs a significant performance cost, so use FALSE if you
+ *   know $module_list is already complete and in the correct order.
  *
- * @return bool
- *   Returns TRUE if the operation succeeds or FALSE if it aborts due to an
- *   unsafe condition, namely, $uninstall_dependents is TRUE and a module in
- *   $module_list has dependents which are not already uninstalled and not also
- *   included in $module_list).
- *
- * @see module_disable()
+ * @return
+ *   FALSE if one or more dependent modules are missing from the list, TRUE
+ *   otherwise.
  */
 function drupal_uninstall_modules($module_list = array(), $uninstall_dependents = TRUE) {
   if ($uninstall_dependents) {
@@ -773,7 +767,7 @@ function drupal_uninstall_modules($module_list = array(), $uninstall_dependents 
     $profile = drupal_get_profile();
     while (list($module) = each($module_list)) {
       if (!isset($module_data[$module]) || drupal_get_installed_schema_version($module) == SCHEMA_UNINSTALLED) {
-        // This module doesn't exist or is already uninstalled. Skip it.
+        // This module doesn't exist or is already uninstalled, skip it.
         unset($module_list[$module]);
         continue;
       }
@@ -806,7 +800,7 @@ function drupal_uninstall_modules($module_list = array(), $uninstall_dependents 
   }
 
   if (!empty($module_list)) {
-    // Let other modules react.
+    // Call hook_module_uninstall to let other modules act
     module_invoke_all('modules_uninstalled', $module_list);
   }
 
@@ -1134,6 +1128,7 @@ function st($string, array $args = array(), array $options = array()) {
     }
   }
 
+  require_once DRUPAL_ROOT . '/includes/theme.inc';
   // Transform arguments before inserting them
   foreach ($args as $key => $value) {
     switch ($key[0]) {

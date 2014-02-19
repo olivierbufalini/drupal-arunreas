@@ -1,0 +1,4 @@
+filename = theme815
+description = "This template is made by <a href='http://template-help.com'>template-help.com</a>"
+modules = block addthis addthis_displays aggregator back_to_top block_class blog book colorbox comment contact contextual ctools demo dismiss faq field field_sql_storage field_ui file filter flexslider flexslider_fields flexslider_views flexslider_views_slideshow follow getlocations getlocations_fields image jqeasing jquery_update libraries list locale menu module_filter node number options panels panels_ipe panels_mini path php poll retina_images search semanticviews shortcut simplenews superfish system taxonomy term_reference_tree text toolbar toolbar_admin_menu tracker trigger update user views_isotope views_slideshow views_ui wysiwyg forum views panels_node page_manager admin_menu admin_menu_toolbar
+version = 1.1
