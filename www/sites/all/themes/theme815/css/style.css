@@ -2,7 +2,7 @@
 
 /* ------------------------- DRUPAL 7 FRAMEWORK ------------------------- */
 body#body {
-	background: #ececec;
+	background: #d9d8d3;
 	color: #cccccc;
 	font: 14px/21px Arial, Helvetica, sans-serif;
 	position:relative;
@@ -1707,4 +1707,176 @@ label.option {vertical-align:middle;}
 		width: 180px;
 	}
 	
+}
+
+/* ------------------------- CUSTOM CSS ------------------------- */
+#header-top {
+    width: 100%;
+    height: 150px;
+    background: url(../images/header-dropshadow.png) 0 100% repeat-x;
+    position: relative;
+    min-width: 960px;
+}
+.ie7 #header-top {
+    background-image: none;
+    z-index: 1000;
+}
+#header-top ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: 'LinotypeUniversW01-Ligh 723625'}
+#header-top li {
+    float: left;
+}
+#header-lists-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background: url(../images/hotel-utility-bg.png) 0 0 repeat-x;
+    z-index: 1000000000000;
+}
+#header-lists {
+    position: relative;
+    width: 941px;
+    height: 30px;
+    margin: 0 auto;
+    color: #d6d5cf;
+}
+
+#header-lists a {
+    color: #d6d5cf;
+}
+#header-lists a:hover {
+    color: #c39122;
+}
+#header-lists li a {
+    display: block;
+    padding: 8px 12px 4px;
+    height: 18px;
+    font-family: 'LinotypeUniversW01-Ligh 723625'}
+#header-lists li.hover {
+    background-color: #1d1915;
+}
+#header-lists li div.sub-menu {
+    display: none;
+    overflow: hidden;
+    padding: 12px 0 10px;
+}
+#header-lists li.hover div.sub-menu {
+    display: block;
+    position: absolute;
+    z-index: 999;
+    background-color: #1d1915;
+}
+.ie7 #header-lists li.hover#language div.sub-menu {
+    display: block;
+    position: absolute;
+    z-index: 999;
+    background-color: #1d1915;
+    width: 196px;
+}
+#header-lists li div.sub-menu section {
+    width: 196px;
+    padding: 0 14px;
+    float: left;
+}
+.ie7 #header-lists div.sub-menu section {
+    width: 196px;
+    padding: 0 14px;
+    float: left;
+}
+.ie7 #header-lists div.sub-menu section li {
+    width: 196px;
+    padding: 0 14px;
+    float: left;
+}
+#header-lists li section h1 {
+    color: #c39122;
+    margin: 0;
+    font-family: 'LinotypeUniversW01-Ligh 723625';
+    font-size: 15px;
+}
+#header-lists li section li {
+    clear: both;
+    margin-bottom: 8px;
+}
+#header-lists li section a {
+    padding: 0;
+    display: inline;
+}
+#global-list {
+    float: right;
+    height: 100%}
+.oldie #global-list {
+    float: right;
+}
+.oldie #global-list {
+    height: 100%}
+#global-list .menu-dash {
+    padding-top: 6px;
+}
+#global-list li a {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#global-list li a {
+    font-size: 12px;
+}
+#global-list li#search {
+    background: url(../images/bg/search.png) 6px 8px no-repeat;
+    height: 100%;
+    margin: 0;
+    display: none;
+}
+#global-list li#search.hover, #global-list li#search.active {
+    height: 100%;
+    margin: 0;
+    background-color: #1d1915;
+}
+#global-list li#search a {
+    text-indent: -5000px;
+}
+.oldie #global-list li#search {
+    background: url(../images/bg/search.png) 6px 8px no-repeat;
+}
+.oldie #global-list li#search.hover, #global-list li#search.active {
+    background-color: #1d1915;
+}
+#global-list li#language {
+    margin-right: 10px;
+    padding-right: 10px;
+}
+#global-list li#language a {
+    background: url(../images/dropdown.png) 100% 47% no-repeat;
+}
+#global-list li#language div.sub-menu section {
+    width: 142px;
+    padding: 0 14px;
+    float: left;
+}
+#global-list li#language div.sub-menu section a {
+    background: 0;
+}
+#global-list li.book-stay {
+    background: url(../images/book-stay.png) 0 0 repeat;
+    height: 100%;
+    margin-top: 0;
+    font-size: 21px;
+    padding: 0;
+}
+#global-list li.book-stay a {
+    display: block;
+    height: 27px;
+    text-align: center;
+    padding: 3px 14px 0;
+    color: #fff;
+}
+.oldie #global-list li.book-stay a:hover {
+    color: #fff;
+}
+#global-list li.first {
+    padding-left: 0;
 }
