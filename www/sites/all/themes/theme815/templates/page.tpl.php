@@ -75,8 +75,31 @@
 
         <div class="main-bg">
             <header id="header" role="banner" class="clearfix">
-                    
+              <div id="header-top">
+                  <div id="header-lists-container">
+                        <div id="header-lists">
+                            
+                            <ul id="global-list">
+                                <li><a href="/my-profile/">MON PROFIL</a></li>
+                                <li class="menu-dash"></li>
+                                <li id="language" class="more-action">
+                                    <a href="#">FRANÇAIS</a>
+                                    <div class="small sub-menu">
+                                        <section>
+                                            <ul>
+                                                <li><a href="http://www.mandarinoriental.com/paris/">ENGLISH</a></li>
+                                            </ul>
+                                        </section>
+                                    </div>
+                                </li>
+                                <li class="book-stay didot-reg"><a onclick="javascript:bookmystay();return false;" id="cphTopContent_top1_lbBookmyStay" class="loader-button" href="javascript:__doPostBack('ctl00$cphTopContent$top1$lbBookmyStay','')">Réservez</a></li>
+
+                            </ul>
+                        </div> <!-- end of #header-lists -->
+                    </div> 
+                </div>
                 <div class="container-12">
+                         
                     <div class="grid-12">
                         <div class="section-1 clearfix">
                             <div class="col1">
@@ -246,7 +269,6 @@
                 <div class="container-12">
                     <div class="grid-12">
                         <?php print render($page['footer']); ?>
-                        <?php if ($is_front): ?>More <a rel="nofollow" href="http://www.templatemonster.com/category/architecture-drupal-templates/" target="_blank">Architecture Drupal Templates at TemplateMonster.com</a><?php endif; ?>
                     </div>
                 </div>
             </div>
