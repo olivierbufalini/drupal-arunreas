@@ -80,7 +80,6 @@
                         <div id="header-lists">
                             
                             <ul id="global-list">
-                                <li><a href="/my-profile/">MON PROFIL</a></li>
                                 <li class="menu-dash"></li>
                                 <li id="language" class="more-action">
                                     <a href="#">FRANÇAIS</a>
@@ -151,7 +150,7 @@
                     
             </header><!-- /#header -->
             
-            
+            <?php if (!$is_front): ?>
             <div id="main-wrapper">
             
                 <div class="container-12">
@@ -242,18 +241,10 @@
                 </div>
             
             </div>
+            <?php endif; ?>
         </div>
         
         <footer id="footer" role="contentinfo">
-            <div class="footer-top-1-wrapper clearfix">
-                <div class="container-12">
-                    <div class="grid-12">
-                        <?php if ($page['footer_top_1']): ?>
-                            <?php print render($page['footer_top_1']); ?>
-                        <?php endif; ?>
-                    </div>
-                </div>
-            </div>
 
             <div class="footer-top-2-wrapper clearfix">
                 <div class="container-12">
