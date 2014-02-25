@@ -139,7 +139,7 @@ div.messages {
 /* ------------------------- MAIN MENU ------------------------- */
 .select-menu {display:none !important;}
 
-#superfish-1 { 
+#superfish-1  { 
 	background:none;
 	float:left;
 	position:relative;
@@ -224,6 +224,92 @@ div.messages {
 				}
 				
 				
+/* ------------------------- FOOTER MENU ------------------------- */
+
+#superfish-2  { 
+	background:none;
+	float:left;
+	position:relative;
+	width:auto;
+}
+	#superfish-2 li {
+		background:none;
+		border:0;
+		overflow:inherit;
+		padding:0;
+		text-align:center;
+	}
+		#superfish-2 > li {
+			margin-left: 18px;
+		}
+		#superfish-2 a {
+			border:0;
+			color:#959595;
+			font-size:13px;
+			font-weight:400;
+			padding:0;
+			text-decoration:none;
+			text-transform: uppercase;
+		}
+			#superfish-2 > li > a:hover, #superfish-2 > li.active-trail > a, #superfish-2 > li.sfHover > a {
+				color:#eb5937;, 
+				background: none;
+			}
+
+	#superfish-2 ul {
+		background: #b7b7b7 url(../images/sub-menu-bg.jpg) 0 0 repeat-x;
+		display:none;
+		padding:15px 0;
+		top:47px;
+		width:164px !important;
+	}
+
+	#superfish-2 ul:before {
+		display: block;
+		content: '';
+		position: absolute;
+		left: 40px;
+		top: -5px;
+		width: 9px;
+		height: 5px;
+		background: url(../images/sub-menu-corner.png) 0 0 no-repeat;
+	}
+	
+		#superfish-2 ul li {
+			background:none;
+			border-bottom:0;
+			height:auto;
+			padding:0;
+		}
+			#superfish-2 ul li a:visited, #superfish-2 ul li a {
+				border:0;
+				color:#fff;
+				font-size:13px;
+				font-weight:normal;
+				padding:7px !important;
+				text-align:center;
+			}
+				#superfish-2 ul li a:hover, #superfish-2 ul li.active-trail a  { background:#eb5937;}
+
+			#superfish-2 ul li ul{
+				left:174px !important;
+				padding:10px 0 !important;
+				top:-10px;
+				background: #7b7b7b url(../images/sub-menu-bg-2.jpg) 0 0 repeat-x;
+			}
+
+			#superfish-2 ul li ul:before {
+				left: -5px;
+				top: 13px;
+				width: 5px;
+				height: 9px;
+				background-image: url(../images/sub-menu-corner-2.png);
+			}
+				#superfish-2 ul li ul li {
+					background:none;
+					margin-bottom:1px;
+				}
+
 /* ------------------------- SLIDER ------------------------- */
 #flexslider_views_slideshow_main_slider-block li {
 	padding: 0;
@@ -471,8 +557,8 @@ article.comment h3 {
 	background: #f4f4f4 url(../images/footer-top-1.jpg) 0 0 repeat-x;
 }
 .footer-top-2-wrapper {
-	padding-top: 44px;
-	padding-bottom: 29px;
+	padding-top: 24px;
+	padding-bottom: 19px;
 	background: #f4f4f4 url(../images/footer-top-1.jpg) 0 0 repeat-x;
 }
 	.footer-top-2-wrapper .content {
@@ -827,7 +913,7 @@ ul.links li a {
 /* ------------------------- SOCIAL-ICONS BLOCK ------------------------- */
 #block-follow-site {
 	text-align: right;
-	padding-top: 5px;
+	padding-left: 35px;
 }
 
 	.follow-link-wrapper {
@@ -1879,4 +1965,8 @@ label.option {vertical-align:middle;}
 }
 #global-list li.first {
     padding-left: 0;
+}
+
+#block-block-10 {
+	padding-bottom: 30px;
 }

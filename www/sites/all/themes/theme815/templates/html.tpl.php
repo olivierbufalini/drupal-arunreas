@@ -39,7 +39,7 @@ $html_attributes = "lang=\"{$language->language}\" dir=\"{$language->dir}\" {$rd
 <!--[if IE 9 ]><html <?php print $html_attributes; ?> class="no-js ie9"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--><html <?php print $html_attributes; ?> class="no-js"><!--<![endif]-->
 <head<?php print $rdf->profile; ?>>
-
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <?php print $head; ?>
   
   <!--[if lte IE 7]> <div style=' text-align:center; clear: both; padding:0 0 0 15px; position: relative;'> <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div> <![endif]-->
