@@ -3,7 +3,7 @@
 /* ------------------------- DRUPAL 7 FRAMEWORK ------------------------- */
 body#body {
 	background: #d9d8d3;
-	color: #cccccc;
+	color: ##47413a;
 	font: 14px/21px Arial, Helvetica, sans-serif;
 	position:relative;
 	min-width:300px;
@@ -131,8 +131,8 @@ div.messages {
 .not-front .section-1 {
 	border-bottom: 1px solid #f3f3f3;
 }
-	.section-1 .col1 {float:left;}
-	.section-1 .col2 {float:right; padding-top: 21px;}
+	.section-1 .col1 {float:left; padding-top: 41px;}
+	.section-1 .col2 {float:right; padding-top: 41px;}
 .section-2 {}
 .section-3 {}
 
@@ -157,7 +157,7 @@ div.messages {
 		}
 		#superfish-1 a {
 			border:0;
-			color:#959595;
+			color:#47413a;
 			font-size:13px;
 			font-weight:400;
 			padding:0;
@@ -244,7 +244,7 @@ div.messages {
 		}
 		#superfish-2 a {
 			border:0;
-			color:#959595;
+			color:#47413a;
 			font-size:13px;
 			font-weight:400;
 			padding:0;
@@ -351,8 +351,8 @@ div.messages {
 	position: absolute;
 	text-align: left;
 	width: auto;
-	right: 409px;
-	top: 369px;
+	left: 409px;
+	top: 469px;
 }
 
 .flex-control-nav li {
@@ -1968,5 +1968,88 @@ label.option {vertical-align:middle;}
 }
 
 #block-block-10 {
-	padding-bottom: 30px;
+	padding-bottom: 60px;
+	padding-left: 80px;
+}
+#block-superfish-1 {
+	padding-right: 220px;
+}
+#promo-wrap {
+	position:absolute;
+	top:90px;
+	right:0;
+	z-index:15;
+	margin:0;
+	z-index:50;
+}
+#promo-wrap {
+	top:90px;
+}
+#promo-wrap li {
+	width:250px;
+	padding:11px 0 7px 14px;
+	margin:0 0 14px;
+	background:url(../images/promo-home-bg.png) 0 0 repeat;
+	list-style:none;
+	overflow:hidden;
+}
+#promo-wrap li p {
+	font-family:'LinotypeUniversW01-Ligh 723625';
+	margin:0;
+	font-size:12px;
+	color:#d6d5cf;
+}
+#promo-wrap li h1 {
+	font-family:Didot W01 Roman;
+	-webkit-font-smoothing:antialiased;
+	font-size:22px;
+	margin-bottom:0;
+}
+#promo-wrap li h1 a {
+	padding-right:20px;
+	background:url(../images/home-promo-arrow.png) 100% 9px no-repeat;
+	color:#d6d5cf;
+}
+#promo-wrap li h1 a {
+	background-image:none;
+}
+
+#promo-wrap,#level2-banner #promo-wrap,#level2-banner .promo,.promo-box,#promo-wrap a,#level2-banner .promo a,.promo-box a,.promo-box a:hover {
+	color:#fff;
+}
+#main #promo-wrap section #promoLinks h1 {
+	background:url("../images/home-promo-arrow.png") no-repeat 95% 60%;
+}
+#promo-wrap section h1 {
+	margin-bottom:5px;
+}
+#promo-wrap section h3 {
+	margin:0;
+	color:#d6d5cf;
+}
+#promo-wrap section p {
+	width:230px;
+	font-family:Arial;
+}
+#promo-wrap .promo h1.type {
+	font-family:'LinotypeUniversW01-Ligh 723625';
+	color:#d6d5cf;
+}
+#promo-wrap section a {
+	background:0;
+	color:#fff;
+}
+#promo-wrap section #promoLinks h1 {
+	background:url("../images/home-promo-arrow.png") no-repeat 95% 60%;
+}
+#promo-wrap section h1 {
+	margin-bottom:5px;
+}
+#promo-wrap section h3 {
+	margin:0;
+	color:#d6d5cf;
+}
+#promo-wrap section p {
+	width:230px;
+	font-family:Arial;
 }
