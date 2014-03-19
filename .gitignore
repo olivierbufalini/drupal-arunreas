@@ -48,3 +48,5 @@ Thumbs.db
 .vagrant
 index.html
 phpinfo.php
+
+www/sites/default/files/styles/*thumbnail/*

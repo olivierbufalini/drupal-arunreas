@@ -1,1 +1,0 @@
-window.tinyMCEPreInit = {"base":"\/2013\/08_August\/theme815.Ares.20566\/sites\/all\/libraries\/tinymce\/jscripts\/tiny_mce","suffix":"","query":""};

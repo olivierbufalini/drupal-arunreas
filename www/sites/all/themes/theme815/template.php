@@ -121,6 +121,10 @@ function theme815_preprocess_html(&$vars) {
  */
 function theme815_preprocess_page(&$vars) {
   
+  if (isset($vars['node']->type)) { 
+    $vars['theme_hook_suggestions'][] = 'page__' . $vars['node']->type; 
+  }
+
   if (isset($vars['node_title'])) {
     $vars['title'] = $vars['node_title'];
   }
@@ -133,6 +137,7 @@ function theme815_preprocess_page(&$vars) {
   if (!empty($vars['secondary_menu'])) {
     $vars['classes_array'][] = 'with-subnav';
   }
+
 
   // Since the title and the shortcut link are both block level elements,
   // positioning them next to each other is much simpler with a wrapper div.
@@ -151,6 +156,7 @@ function theme815_preprocess_page(&$vars) {
   }
   
 }
+
 
 /**
  * Implements template_preprocess_maintenance_page().
