@@ -2092,18 +2092,15 @@ article.node-section-summary-page {
 
 #level2-banner {
 	width: 100%;
-	max-width: 1400px;
-	height: 450px;
+	height: 350px;
 	margin: 0 auto;
+	margin-bottom: 10px;
 	overflow: hidden;
 	position: relative;
 }
 
 #level2-banner img {
-	width: 1400px;
 	position: absolute;
-	margin-left: -700px;
-	left: 50%;
 }
 
 #level2-banner #promo-wrap {
@@ -2158,7 +2155,7 @@ article.node-section-summary-page {
 	margin-bottom: 13px;
 }
 
-#block-views-overview-section-block div.grid-4.views-row.even, #block-views-overview-section-block div.grid-4.views-row.alpha.odd {
+#block-views-overview-section-block div.grid-4.views-row {
 	min-height: 350px;
 	background-color: #FFFFFF;
 }

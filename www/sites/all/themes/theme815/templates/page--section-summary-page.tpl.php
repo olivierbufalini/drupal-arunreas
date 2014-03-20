@@ -151,9 +151,61 @@
             </header><!-- /#header -->
             
             <?php if (!$is_front): ?>
-            <div id="main-wrapper">
-            
-                <div class="container-12">
+
+                <div id="main-wrapper">
+                    <div id="level2-banner" class="block">
+                                <div class="flexslider">
+                                      <ul>
+                                            <li class="" style="width: 100%; float: left; margin-right: -100%; position: relative;">  
+                                              <div>        
+                                                    <div>
+                                                        <?php 
+                                                $images = field_get_items('node',$node, 'field_image');
+                                                 if(!empty($images)) {
+                                                   
+                                                   $image = field_view_value('node', $node, 'field_image', $images[0], array( 'type' => 'image', 'settings' => array( 'image_style' => '1950x553' ) )); 
+                                                 }
+
+                                            ?>
+
+                                                        <?php print render($image); ?>
+
+                                                        <div id="promo-wrap">
+                                                <div class="promo">
+                                                    <section>
+                                                        <?php if ($title): ?>
+                                                        <h1 class="type"><?php print $title; ?></h1>
+                                                        <?php endif; ?>
+                                                        <h2>
+                                                        <?php 
+                                                            $subtitle = field_get_items('node',$node, 'field_subtitle');
+                                                            print $subtitle[0]['value']; 
+                                                        ?>
+                                                        </h2>
+                                                        <div class="rtf">
+                                                            <?php 
+                                                            $body = field_get_items('node',$node, 'body');
+                                                            print $body[0]['value']; 
+                                                            ?>
+                                                        </div>
+                                                    </section>
+                                                </div>
+                                            </div>
+
+                                                    </div>  
+                                                </div>
+                                            </li>
+                                            
+                       
+                                        </ul>
+                                </div>
+                        
+                         
+                      
+
+                    </div>
+                    
+                    <div class="container-12">
                     <div class="grid-12">
  
                                 
@@ -213,38 +265,7 @@
                                     <?php print render($title_prefix); ?>
                                     
                                     
-                                    <div id="level2-banner" class="suites">
-                                        <?php 
-                                            $images = field_get_items('node',$node, 'field_image');
-                                             if(!empty($images)) {
-                                               
-                                               $image = field_view_value('node', $node, 'field_image', $images[0], array( 'type' => 'image', 'settings' => array( 'image_style' => '1400x450' ) )); 
-                                             }
-
-                                        ?>
-                                        <?php print render($image); ?>
-                                       <div id="promo-wrap">
-                                            <div class="promo">
-                                                <section>
-                                                    <?php if ($title): ?>
-                                                    <h1 class="type"><?php print $title; ?></h1>
-                                                    <?php endif; ?>
-                                                    <h2>
-                                                    <?php 
-                                                        $subtitle = field_get_items('node',$node, 'field_subtitle');
-                                                        print $subtitle[0]['value']; 
-                                                    ?>
-                                                    </h2>
-                                                    <div class="rtf">
-                                                        <?php 
-                                                        $body = field_get_items('node',$node, 'body');
-                                                        print $body[0]['value']; 
-                                                        ?>
-                                                    </div>
-                                                </section>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    
                                     
                                     
                                     <?php print render($title_suffix); ?>
