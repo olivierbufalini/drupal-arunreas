@@ -163,7 +163,7 @@
                                                 $images = field_get_items('node',$node, 'field_image');
                                                  if(!empty($images)) {
                                                    
-                                                   $image = field_view_value('node', $node, 'field_image', $images[0], array( 'type' => 'image', 'settings' => array( 'image_style' => '1950x553' ) )); 
+                                                   $image = field_view_value('node', $node, 'field_image', $images[0], array( 'type' => 'image' )); 
                                                  }
 
                                             ?>
