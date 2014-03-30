@@ -203,7 +203,7 @@ div.messages {
 				font-size:13px;
 				font-weight:normal;
 				padding:7px !important;
-				text-align:center;
+				text-align:left;
 			}
 				#superfish-1 ul li a:hover, #superfish-1 ul li.active-trail a  { background:#eb5937;}
 
@@ -696,7 +696,17 @@ article.comment h3 {
 /*Node heading*/
 .front #page-title {display:none;}
 
-#content h1.title, h2, h3 {
+#content h1.title {
+	font-size:30px;
+	line-height:36px;
+	margin-bottom:20px;
+	text-transform:uppercase;
+	font-family: 'Open Sans', sans-serif;
+	color: #444;
+	font-weight: 400;
+}
+
+#content h2, h3 {
 	font-size:30px;
 	line-height:36px;
 	margin-bottom:20px;
@@ -2170,5 +2180,38 @@ article.node-section-summary-page {
 
 .content {
 	font-family: Arial;
-	font-size: 12px;
+	font-size: 12px
 }
+
+#block-menu-block-1 li.active-trail > a {
+border-bottom: 1px solid #eb5937;
+color: #eb5937;
+}
+
+#block-menu-block-1 li > a {
+
+color: #47413a;
+}
+
+#block-menu-block-1 a {
+	font-family: 'LinotypeUniversW01-Ligh 723625';
+	color: #47413a;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 0;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#block-menu-block-1 ul {
+	list-style: none;	
+}
+
+#block-menu-block-1 > div.content > div {
+	min-height: 150px;
+	background-color: #FFFFFF;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
