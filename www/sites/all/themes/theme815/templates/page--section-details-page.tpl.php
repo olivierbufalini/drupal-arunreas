@@ -209,8 +209,8 @@
                                           <?php print $messages; ?>
                                         </div></div> <!-- /.section, /#messages -->
                                       <?php endif; ?>
-                                    
-                                    
+                                
+
                                     <?php if ($tabs): ?>
                                       <div class="tabs"><?php print render($tabs); ?></div>
                                     <?php endif; ?>
