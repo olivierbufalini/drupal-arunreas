@@ -166,9 +166,9 @@ div.messages {
 			text-transform: uppercase;
 		}
 			#superfish-1 > li > a:hover, #superfish-1 > li.active-trail > a, #superfish-1 > li.sfHover > a {
-				color:#eb5937;, 
+				color:#47413a;, 
 				background: none;
-				border-bottom:1px solid #eb5937;
+				border-bottom:1px solid #47413a;
 				padding-bottom: 3px;
 			}
 
@@ -838,7 +838,7 @@ ul.menu li {
 			line-height:20px;
 		}
 			section.block .content li a, .marker-list li a { 
-				color:#eb5937;
+				color:#47413a;
 				line-height:20px;
 				text-decoration:none;
 			}
@@ -2170,7 +2170,7 @@ article.node-section-summary-page {
 }
 
 #block-views-overview-section-block div.grid-4.views-row, #block-views-rooms-suites-section-block div.grid-4.views-row, #block-views-dining-section-block div.grid-4.views-row, #block-views-activities-section-block div.grid-4.views-row {
-	min-height: 450px;
+	min-height: 470px;
 	background-color: #FFFFFF;
 }
 
@@ -2183,17 +2183,17 @@ article.node-section-summary-page {
 	font-size: 12px
 }
 
-#block-menu-block-1 li.active-trail > a {
-border-bottom: 1px solid #eb5937;
-color: #eb5937;
+.block-menu-block li.active-trail > a {
+border-bottom: 1px solid #47413a;
+color: #47413a;
 }
 
-#block-menu-block-1 li > a {
+.block-menu-block li > a {
 
 color: #47413a;
 }
 
-#block-menu-block-1 a {
+.block-menu-block a {
 	font-family: 'LinotypeUniversW01-Ligh 723625';
 	color: #47413a;
 	font-size: 14px;
@@ -2203,11 +2203,11 @@ color: #47413a;
 	text-transform: uppercase;
 }
 
-#block-menu-block-1 ul {
+.block-menu-block ul {
 	list-style: none;	
 }
 
-#block-menu-block-1 > h2 {
+.block-menu-block > h2 {
 	margin-top: 20px;
 	margin-left: 10px;	
 	background: #a87401 url(../images/detail-header-bg.png) 0 0 repeat;
@@ -2218,15 +2218,15 @@ color: #47413a;
 	color: #716c5e;
 }
 
-#block-menu-block-1 > div.content > div {
+.block-menu-block > div.content > div {
 	min-height: 150px;
 	margin-top: 20px;
 	padding-top: 10px;
 	padding-left: 10px;
 }
 
-#block-block-12, #block-block-13  {
-	min-height: 150px;
+#block-block-12, #block-block-13, #block-block-14, #block-block-15, #block-block-16   {
+	/*min-height: 150px;*/
 	padding-bottom: 30px;
 	padding-left: 10px;
 	font-family: 'LinotypeUniversW01-Ligh 723625';
@@ -2235,7 +2235,7 @@ color: #47413a;
 	text-transform: uppercase;
 }
 
-#block-block-12 > h2, #block-block-13 > h2 {
+#block-block-12 > h2, #block-block-13 > h2, #block-block-14 > h2, #block-block-15 > h2, #block-block-16 > h2 {
 	background: #a87401 url(../images/detail-header-bg.png) 0 0 repeat;
 	font: 400 14px/25px 'LinotypeUniversW01-Ligh 723625',sans-serif;
 	height: 25px;
@@ -2245,17 +2245,37 @@ color: #47413a;
 
 }
 
-#block-block-12 > div.content, #block-block-13 > div.content {
+#block-block-12 > div.content, #block-block-13 > div.content, #block-block-14 > div.content, #block-block-15 > div.content, #block-block-16 > div.content {
 	margin-top: 10px;
 }
 
 #flexslider-1 > ol {
 	right: 178px;
-	top: 380px;
+	/*top: 380px;*/
 	left: 20px;
+}
+
+#flexslider-1 > ul > li > img {
+	width: 844px;
 }
 
 #block-views-overview-section-block .views-field.views-field-view-node {
 	/*position: absolute;*/
 	top: 400px;
+}
+
+#BookMyStay {
+	font-size: 16px !important;
+}
+
+#block-summary {
+	font-family: Arial;
+	margin-top: 8px!important;
+	margin-bottom: 8px!important;
+	font-size: 13px!important;
+	font-weight: bold!important;
+	text-transform: uppercase;
+	font: 400 12px Arial,sans-serif;
+	color: #a9a79b;
+	-webkit-font-smoothing: antialiased;
 }

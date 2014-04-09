@@ -91,7 +91,7 @@
                                         </section>
                                     </div>
                                 </li>
-                                <li class="book-stay didot-reg"><a onclick="" id="cphTopContent_top1_lbBookmyStay" class="loader-button" href="">Réservez</a></li>
+                                <li class="book-stay didot-reg"><a onclick="" id="BookMyStay" class="loader-button" href="#">Réservez</a></li>
 
                             </ul>
                         </div> <!-- end of #header-lists -->
