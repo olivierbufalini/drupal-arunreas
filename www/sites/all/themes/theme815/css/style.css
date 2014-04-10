@@ -2216,6 +2216,7 @@ color: #47413a;
 	padding: 0 15px;
 	letter-spacing: .025em;
 	color: #716c5e;
+	text-transform: uppercase;
 }
 
 .block-menu-block > div.content > div {
@@ -2225,7 +2226,7 @@ color: #47413a;
 	padding-left: 10px;
 }
 
-#block-block-12, #block-block-13, #block-block-14, #block-block-15, #block-block-16   {
+#block-block-12, #block-block-13, #block-block-14, #block-block-15, #block-block-16, #block-block-17, #block-block-18   {
 	/*min-height: 150px;*/
 	padding-bottom: 30px;
 	padding-left: 10px;
@@ -2235,7 +2236,7 @@ color: #47413a;
 	text-transform: uppercase;
 }
 
-#block-block-12 > h2, #block-block-13 > h2, #block-block-14 > h2, #block-block-15 > h2, #block-block-16 > h2 {
+#block-block-12 > h2, #block-block-13 > h2, #block-block-14 > h2, #block-block-15 > h2, #block-block-16 > h2, #block-block-17 > h2, #block-block-18 > h2 {
 	background: #a87401 url(../images/detail-header-bg.png) 0 0 repeat;
 	font: 400 14px/25px 'LinotypeUniversW01-Ligh 723625',sans-serif;
 	height: 25px;
@@ -2245,7 +2246,7 @@ color: #47413a;
 
 }
 
-#block-block-12 > div.content, #block-block-13 > div.content, #block-block-14 > div.content, #block-block-15 > div.content, #block-block-16 > div.content {
+#block-block-12 > div.content, #block-block-13 > div.content, #block-block-14 > div.content, #block-block-15 > div.content, #block-block-16 > div.content, #block-block-17 > div.content, #block-block-18 > div.content {
 	margin-top: 10px;
 }
 
@@ -2278,4 +2279,8 @@ color: #47413a;
 	font: 400 12px Arial,sans-serif;
 	color: #a9a79b;
 	-webkit-font-smoothing: antialiased;
+}
+
+.content p {
+	text-align: justify;
 }
