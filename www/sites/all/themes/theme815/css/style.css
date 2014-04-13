@@ -2284,3 +2284,46 @@ color: #47413a;
 .content p {
 	text-align: justify;
 }
+
+.content h1 {
+	-webkit-font-smoothing: antialiased;
+	letter-spacing: .02em;
+	color: #47413a;
+	font-family: Didot W01 Roman!important;
+	margin: 0 0 18px 0!important;
+	font-size: 30px!important;
+}
+
+.content h2 {
+	color: #a87401!important;
+	margin-top: 25px!important;
+	-webkit-font-smoothing: antialiased!important;
+	font: 400 18px 'LinotypeUniversW01-Ligh 723625',sans-serif!important;
+	margin: 16px 0 8px 0!important;
+	text-transform: uppercase!important;
+}
+
+.content h3 {
+	font-family: Arial;
+	color: #47413a;
+	text-transform: uppercase;
+	margin-top: 8px!important;
+	margin-bottom: 8px!important;
+	font-size: 13px!important;
+	font-weight: bold!important;
+	-webkit-font-smoothing: antialiased;
+	margin: 0!important;
+}
+
+.call2action .button {
+	background: url("../images/ActionBG.png") repeat-x scroll 0 0;
+	padding: 1px 1px 1px;
+	font-family: Didot W01 Roman;
+	-webkit-font-smoothing: antialiased;
+	font-size: 21px;
+	color: #fff;
+	text-align: center;
+	letter-spacing: -0.05em;
+	display: block;
+	line-height: 1.4em;
+}
