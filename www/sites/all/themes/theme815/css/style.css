@@ -2326,4 +2326,23 @@ color: #47413a;
 	letter-spacing: -0.05em;
 	display: block;
 	line-height: 1.4em;
+	text-transform: none;
+}
+
+div#block-block-16 {
+	background-color: #F8F8F7;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 10px;
+}
+
+section#block-menu-block-2 {
+	padding-bottom: 0px!important;
+}
+.node ul {
+	list-style: disc;
+	padding-left: 20px;
+	list-style-position: outside;
 }
