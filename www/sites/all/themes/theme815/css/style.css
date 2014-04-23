@@ -2341,7 +2341,7 @@ div#block-block-16 {
 section#block-menu-block-2 {
 	padding-bottom: 0px!important;
 }
-.node ul {
+.node .field-name-body ul {
 	list-style: disc;
 	padding-left: 20px;
 	list-style-position: outside;
