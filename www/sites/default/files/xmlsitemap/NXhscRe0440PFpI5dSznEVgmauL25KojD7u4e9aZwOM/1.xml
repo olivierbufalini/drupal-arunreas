@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://localhost:8888/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>http://localhost:8888/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>http://localhost:8888/contacts</loc></url>
+<url><loc>http://localhost:8888/overview/map-direction</loc></url>
+<url><loc>http://localhost:8888/rooms-suites</loc></url>
+<url><loc>http://localhost:8888/rooms-suites/arunreas-suites</loc></url>
+<url><loc>http://localhost:8888/rooms-suites/executives-suites</loc></url>
+<url><loc>http://localhost:8888/rooms-suites/deluxe-rooms</loc></url>
+<url><loc>http://localhost:8888/rooms-suites/reception</loc></url>
+<url><loc>http://localhost:8888/dining</loc></url>
+<url><loc>http://localhost:8888/dining/khema-restaurant</loc></url>
+<url><loc>http://localhost:8888/dining/topaz-restaurant</loc></url>
+<url><loc>http://localhost:8888/dining/malis-restaurant</loc></url>
+<url><loc>http://localhost:8888/activities</loc></url>
+<url><loc>http://localhost:8888/activities/wellness</loc></url>
+<url><loc>http://localhost:8888/activities/shopping</loc></url>
+<url><loc>http://localhost:8888/activities/itineraries</loc></url>
+<url><loc>http://localhost:8888/activities/attractions</loc></url>
+<url><loc>http://localhost:8888/offers</loc></url>
+<url><loc>http://localhost:8888/dining/arunreas-club</loc></url>
+<url><loc>http://localhost:8888/dining/oak-51</loc></url>
+<url><loc>http://localhost:8888/our-company</loc></url>
+<url><loc>http://localhost:8888/overview</loc></url>
+<url><loc>http://localhost:8888/overview/hotel-glance</loc></url>
+<url><loc>http://localhost:8888/overview/our-history</loc></url>
+<url><loc>http://localhost:8888/overview/news-events</loc></url>
+<url><loc>http://localhost:8888/overview/about-cambodia</loc></url>
+<url><loc>http://localhost:8888/portfolio-2</loc></url>
+<url><loc>http://localhost:8888/portfolio-3</loc></url>
+<url><loc>http://localhost:8888/portfolio-4</loc></url>
+</urlset>
