@@ -848,7 +848,7 @@ ul.menu li {
 /* ------------------------- BUTTONS STYLES ------------------------- */
 	.form-submit:hover { background:#444;}
 	
-.button a, .more-link a, ul.links li a, .view-portfolio .views-field-view-node a, #block-poll-recent ul.links li a, #filters li a, .content ul.pager li a, .content ul.pager li.pager-current, .form-submit {
+.button a, .more-link a, ul.links li a, .view-portfolio .views-field-view-node a, #block-poll-recent ul.links li a, .content ul.pager li a, .content ul.pager li.pager-current, .form-submit {
 	display: inline-block;
 	padding: 9px 14px;
 	background: #eee;
@@ -863,6 +863,44 @@ ul.menu li {
 
 
 }
+
+.view-portfolio-filter a.selected {
+background: #b7861e;
+color: #fff !important;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+border-bottom: 1px solid #b7861e !important;
+border-left: 1px solid #b7861e;
+border-right: 1px solid #b7861e;
+}
+
+.view-portfolio-filter a {
+border-bottom: 1px solid #ececec !important;
+border-left: 1px solid #ececec;
+border-right: 1px solid #ececec; 
+cursor: pointer;
+display: inline-block;
+font-size: 14px;
+margin-right: 10px;
+margin-bottom: 10px;
+color: #888 !important;
+padding: 0px 10px;
+line-height: 25px;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+text-decoration: none;
+-webkit-border-radius: 4px !important;
+-moz-border-radius: 4px !important;
+border-radius: 4px !important;
+background: #f5f5f5;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+font-family: 'opensans-regular-webfont';
+outline: none;
+}
+
 	.button a:hover, .more-link a:hover, ul.links li a:hover, .view-portfolio .views-field-view-node a:hover, #block-poll-recent ul.links li a:hover, #filters li a:hover, #filters li a.selected, .content ul.pager li a:hover, .content ul.pager li.pager-current, .form-submit:hover {
 		background-position: 0 -39px;
 	}
@@ -991,7 +1029,7 @@ a.follow-link-this-site {
 
 .view-portfolio .isotope-element .views-field-field-portfolio-image {
 	background:url(../images/ajax-loader.gif) center center no-repeat #fff; 
-	margin-bottom:20px;
+	/*margin-bottom:20px;*/
 }
 
 .view-portfolio .isotope-element .views-field-field-portfolio-image a {
@@ -1005,7 +1043,8 @@ a.follow-link-this-site {
 
 #filters {
 	margin-bottom: 20px;
-	text-align: right;
+	text-align: left;
+	margin-top: 20px; 
 }
 
 #isotope-options {
@@ -1014,7 +1053,7 @@ a.follow-link-this-site {
 
 #filters li {
 	display: inline-block;
-	margin-left: 10px;
+	/*margin-left: 10px;*/
 	margin-bottom: 10px;
 }
 
@@ -1040,6 +1079,8 @@ a.follow-link-this-site {
 	box-sizing: border-box;
 	margin-bottom: 30px;
 }
+
+
 
 
 

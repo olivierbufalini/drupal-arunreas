@@ -86,12 +86,12 @@
                                     <div class="small sub-menu">
                                         <section>
                                             <ul>
-                                                <li><a href="http://www.arunreas.com/en/">ENGLISH</a></li>
+                                                <li><a href="http://www.mandarinoriental.com/paris/">ENGLISH</a></li>
                                             </ul>
                                         </section>
                                     </div>
                                 </li>
-                                <li class="book-stay didot-reg"><a onclick="" id="BookMyStay" class="loader-button" href="#">Réservez</a></li>
+                                <li class="book-stay didot-reg"><a onclick="#" id="BookMyStay" class="loader-button" href="#">Réservez</a></li>
 
                             </ul>
                         </div> <!-- end of #header-lists -->
@@ -209,15 +209,8 @@
                                           <?php print $messages; ?>
                                         </div></div> <!-- /.section, /#messages -->
                                       <?php endif; ?>
-                                    
-                                    <?php print render($title_prefix); ?>
-                                    
-                                    <?php if ($title): ?>
-                                      <h1 class="title" id="page-title"><?php print $title; ?></h1>
-                                    <?php endif; ?>
-                                    
-                                    <?php print render($title_suffix); ?>
-                                    
+                                
+
                                     <?php if ($tabs): ?>
                                       <div class="tabs"><?php print render($tabs); ?></div>
                                     <?php endif; ?>
