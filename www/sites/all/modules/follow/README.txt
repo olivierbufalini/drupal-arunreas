@@ -67,6 +67,7 @@ Here's a list of the currently supported social networks:
  - Viadeo
  - Xing
  - Spiceworks
+ - Pinterest
 
 ICONS
 ********************************************************************************
