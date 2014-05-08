@@ -86,7 +86,8 @@
                                     <div class="small sub-menu">
                                         <section>
                                             <ul>
-                                                <li><a href="http://www.mandarinoriental.com/paris/">ENGLISH</a></li>
+                                                <li><a href="#">FRANCAIS</a></li>
+                                                <li><a href="#">ENGLISH</a></li>
                                             </ul>
                                         </section>
                                     </div>

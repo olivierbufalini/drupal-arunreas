@@ -2035,10 +2035,11 @@ label.option {vertical-align:middle;}
 
 #block-block-10 {
 	padding-bottom: 60px;
-	padding-left: 80px;
+	float: right;
+	padding-right: 100px;
 }
 #block-superfish-1 {
-	padding-right: 220px;
+	padding-right: 100px;
 }
 #promo-wrap {
 	position:absolute;
@@ -2133,6 +2134,7 @@ label.option {vertical-align:middle;}
 	padding: 10px 15px;
 	font-size: 12px;
 	font-family: sans-serif;
+	min-height: 144px;
 }
 
 #block-views-overview-section-block div.views-field.views-field-view-node, #block-views-rooms-suites-section-block div.views-field.views-field-view-node, #block-views-dining-section-block div.views-field.views-field-view-node, #block-views-activities-section-block div.views-field.views-field-view-node {
