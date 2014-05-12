@@ -92,6 +92,10 @@ a.follow-link-spiceworks {
   background-image: url(/sites/all/modules/follow/icons/small/icon-spiceworks.png);
 }
 
+a.follow-link-pinterest {
+  background-image: url(/sites/all/modules/follow/icons/small/icon-pinterest.png);
+}
+
 a.follow-link-newsletter {
   background-image: url(/sites/all/modules/follow/icons/small/icon-newsletter.png);
 }
