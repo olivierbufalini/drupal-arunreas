@@ -99,6 +99,36 @@
 		margin-left: 20px;
 	}
 
+	/* Remove Promo Wrap on Front Page */
+	@media only screen and (max-height: 768px) and (max-width:1280px) {
+		.front #promo-wrap {
+			display: none;
+		}
+	}
+	/* Remove Promo Wrap on other Page */
+	@media only screen and (max-height: 600px) and (max-width:800px) {
+		.not-front #promo-wrap {
+			display: none;
+		}
+	}
+	/* Move Social buttons */
+	@media only screen and (max-height: 768px) and (max-width:1024px) {
+		#block-follow-site {
+			padding-top: 30px;
+			padding-left: 35px;
+		}
+	}
+	@media only screen and (max-height: 600px) and (max-width:800px) {
+		.section-1 .col2 {
+				padding-top: 0px;
+			}
+	}
+
+	@media only screen and (max-height: 480px) and (max-width:640px) {
+		.section-1 .col2 {
+				padding-top: 20px;
+			}
+	}
 
 	@media only screen and (min-width: 995px) and (max-width: 1230px) {
 
@@ -237,6 +267,7 @@
 		}
 
 
+
     }
 
 
@@ -303,6 +334,8 @@
 
 
 		.grid-last {margin-bottom: 0 !important;}
+
+		
     }
 
 
@@ -366,6 +399,7 @@
 		.container-12 .suffix-9,
 		.container-12 .suffix-10,
 		.container-12 .suffix-11{padding-right:0px;}
+
 
     }
 
