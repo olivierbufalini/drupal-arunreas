@@ -2143,7 +2143,7 @@ label.option {vertical-align:middle;}
 	font-family: sans-serif;
 }
 
-#block-views-overview-section-block a, #block-views-rooms-suites-section-block a, #block-views-dining-section-block a, #block-views-activities-section-block a, div.views-field.views-field-view-node a {
+#block-views-overview-section-block a, #block-views-rooms-suites-section-block a, #block-views-dining-section-block a, #block-views-activities-section-block a, #block-views-offers-section-block a {
 	color: #716c5e;
 }
 
@@ -2221,7 +2221,7 @@ article.node-section-summary-page {
 	margin-bottom: 13px;
 }
 
-#block-views-overview-section-block div.grid-4.views-row, #block-views-rooms-suites-section-block div.grid-4.views-row, #block-views-dining-section-block div.grid-4.views-row, #block-views-activities-section-block div.grid-4.views-row {
+#block-views-overview-section-block div.grid-4.views-row, #block-views-rooms-suites-section-block div.grid-4.views-row, #block-views-dining-section-block div.grid-4.views-row, #block-views-activities-section-block div.grid-4.views-row, #block-views-offers-section-block div.grid-4.views-row {
 	min-height: 470px;
 	background-color: #FFFFFF;
 }
