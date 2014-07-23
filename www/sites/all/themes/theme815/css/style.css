@@ -2112,7 +2112,7 @@ label.option {vertical-align:middle;}
 #promo-wrap section h1 {
 	margin-bottom:5px;
 }
-#promo-wrap section h3 {
+#promo-wrap section h3 {   
 	margin:0;
 	color:#d6d5cf;
 	font-family: 'LinotypeUniversW01-Ligh 723625';
@@ -2130,11 +2130,25 @@ label.option {vertical-align:middle;}
 	-webkit-font-smoothing: antialiased;
 }
 
-#block-views-overview-section-block div.views-field.views-field-field-teaser, #block-views-rooms-suites-section-block div.views-field.views-field-field-teaser, #block-views-dining-section-block div.views-field.views-field-field-teaser, #block-views-activities-section-block div.views-field.views-field-field-teaser, #block-views-offers-section-block div.views-field.views-field-field-teaser {
+#block-views-overview-section-block div.views-field.views-field-field-teaser, #block-views-rooms-suites-section-block div.views-field.views-field-field-teaser, #block-views-activities-section-block div.views-field.views-field-field-teaser {
 	padding: 10px 15px;
 	font-size: 12px;
 	font-family: sans-serif;
 	min-height: 144px;
+}
+
+#block-views-offers-section-block div.views-field.views-field-field-teaser {
+	padding: 10px 15px;
+	font-size: 12px;
+	font-family: sans-serif;
+	min-height: 164px;
+}
+
+#block-views-dining-section-block div.views-field.views-field-field-teaser {
+	padding: 10px 15px;
+	font-size: 12px;
+	font-family: sans-serif;
+	min-height: 14px;
 }
 
 #block-views-overview-section-block div.views-field.views-field-view-node, #block-views-rooms-suites-section-block div.views-field.views-field-view-node, #block-views-dining-section-block div.views-field.views-field-view-node, #block-views-activities-section-block div.views-field.views-field-view-node, #block-views-offers-section-block div.views-field.views-field-view-node {
@@ -2221,10 +2235,21 @@ article.node-section-summary-page {
 	margin-bottom: 13px;
 }
 
-#block-views-overview-section-block div.grid-4.views-row, #block-views-rooms-suites-section-block div.grid-4.views-row, #block-views-dining-section-block div.grid-4.views-row, #block-views-activities-section-block div.grid-4.views-row, #block-views-offers-section-block div.grid-4.views-row {
+#block-views-overview-section-block div.grid-4.views-row, #block-views-rooms-suites-section-block div.grid-4.views-row, #block-views-activities-section-block div.grid-4.views-row {
 	min-height: 470px;
 	background-color: #FFFFFF;
 }
+
+#block-views-offers-section-block div.grid-4.views-row {
+	min-height: 470px;
+	background-color: #FFFFFF;
+}
+
+#block-views-dining-section-block div.grid-4.views-row {
+	min-height: 300px;
+	background-color: #FFFFFF;	
+}
+
 
 #block-block-10 > div.content > div {
 	font-family: 'LinotypeUniversW01-Ligh 723625';
@@ -2356,7 +2381,7 @@ color: #47413a;
 }
 
 .content h3 {
-	font-family: Arial;
+	font-family: 400 14px 'LinotypeUniversW01-Ligh 723625',sans-serif!important;
 	color: #47413a;
 	text-transform: uppercase;
 	margin-top: 8px!important;
