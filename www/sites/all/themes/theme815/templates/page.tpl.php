@@ -82,17 +82,17 @@
                             <ul id="global-list">
                                 <li class="menu-dash"></li>
                                 <li id="language" class="more-action">
-                                    <a href="#">FRANÇAIS</a>
+                                    <a href="#">ENGLISH</a>
                                     <div class="small sub-menu">
                                         <section>
                                             <ul>
-                                                <li><a href="#">FRANCAIS</a></li>
+                                                <li><a href="#">FRENCH</a></li>
                                                 <li><a href="#">ENGLISH</a></li>
                                             </ul>
                                         </section>
                                     </div>
                                 </li>
-                                <li class="book-stay didot-reg"><a onclick="#" id="BookMyStay" class="loader-button" href="#">Réservez</a></li>
+                                <li class="book-stay didot-reg"><a onclick="#" id="BookMyStay" class="loader-button" href="#">Book</a></li>
 
                             </ul>
                         </div> <!-- end of #header-lists -->
