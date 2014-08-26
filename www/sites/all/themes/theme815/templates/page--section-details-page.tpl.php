@@ -81,7 +81,7 @@
                             
                             <ul id="global-list">
                                 <li class="menu-dash"></li>
-                                <li id="language" class="more-action">
+                                <!--<li id="language" class="more-action">
                                     <a href="#">FRANÇAIS</a>
                                     <div class="small sub-menu">
                                         <section>
@@ -90,7 +90,7 @@
                                             </ul>
                                         </section>
                                     </div>
-                                </li>
+                                </li>-->
                                 <li class="book-stay didot-reg"><a onclick="#" id="BookMyStay" class="loader-button" href="#">Réservez</a></li>
 
                             </ul>
