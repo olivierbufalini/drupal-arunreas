@@ -2380,7 +2380,7 @@ color: #47413a;
 }
 
 .content h3 {
-	font-family: 400 14px 'LinotypeUniversW01-Ligh 723625',sans-serif!important;
+	font: 400 14px 'LinotypeUniversW01-Ligh 723625',sans-serif!important;
 	color: #47413a;
 	text-transform: uppercase;
 	margin-top: 8px!important;
