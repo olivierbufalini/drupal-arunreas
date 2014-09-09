@@ -2235,7 +2235,7 @@ article.node-section-summary-page {
 }
 
 #block-views-overview-section-block div.grid-4.views-row, #block-views-rooms-suites-section-block div.grid-4.views-row, #block-views-activities-section-block div.grid-4.views-row {
-	min-height: 470px;
+	min-height: 490px;
 	background-color: #FFFFFF;
 }
 
