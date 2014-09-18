@@ -10,7 +10,12 @@ body#body {
 	-webkit-text-size-adjust: none;
 }
 
-p {margin-bottom:21px;}
+p {
+	font-family: Arial;
+	font-size: 12px;
+	line-height: 18px;
+	margin: 8px 0 8px;
+}
 
 
 .field-name-taxonomy-forums .links a,
