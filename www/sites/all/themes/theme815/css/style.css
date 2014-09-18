@@ -2240,11 +2240,14 @@ article.node-section-summary-page {
 	margin-bottom: 13px;
 }
 
-#block-views-rooms-suites-section-block div.grid-4.views-row, #block-views-activities-section-block div.grid-4.views-row {
+#block-views-activities-section-block div.grid-4.views-row {
 	min-height: 490px;
 	background-color: #FFFFFF;
 }
-
+#block-views-rooms-suites-section-block div.grid-4.views-row {
+	min-height: 450px;
+	background-color: #FFFFFF;	
+}
 #block-views-overview-section-block div.grid-4.views-row {
 	min-height: 450px;
 	background-color: #FFFFFF;	
@@ -2256,7 +2259,7 @@ article.node-section-summary-page {
 }
 
 #block-views-dining-section-block div.grid-4.views-row {
-	min-height: 300px;
+	min-height: 35flexslider0px;
 	background-color: #FFFFFF;	
 }
 
@@ -2339,7 +2342,7 @@ color: #47413a;
 
 #flexslider-1 > ol {
 	right: 178px;
-	/*top: 380px;*/
+	top: 380px;
 	left: 20px;
 }
 
