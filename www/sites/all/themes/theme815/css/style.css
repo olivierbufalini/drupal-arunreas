@@ -2323,7 +2323,7 @@ color: #47413a;
 	font-family: 'LinotypeUniversW01-Ligh 723625';
 	color: #47413a;
 	text-decoration: none;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 #block-block-12 > h2, #block-block-13 > h2, #block-block-14 > h2, #block-block-15 > h2, #block-block-16 > h2, #block-block-17 > h2, #block-block-18 > h2, #block-block-24 > h2, #block-block-29 > h2, #block-block-30 > h2, #block-block-31 > h2, #block-block-33 > h2, #block-block-34 > h2, #block-block-35 > h2 {
