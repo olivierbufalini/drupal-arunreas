@@ -2326,6 +2326,18 @@ color: #47413a;
 	/*text-transform: uppercase;*/
 }
 
+div#block-block-19{
+	padding-left: 10px;
+}
+
+.social-links {
+	padding-left: 10px;
+}
+
+a.social-links {
+	color: #47413a;
+}
+
 #block-block-38 {
 	padding-bottom: 20px;
 	padding-left: 10px;
