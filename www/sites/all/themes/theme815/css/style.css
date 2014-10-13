@@ -2155,7 +2155,7 @@ label.option {vertical-align:middle;}
 	min-height: 14px;
 }
 
-#block-views-overview-section-block div.views-field.views-field-view-node, #block-views-overview-section-block div.views-field-field-link-to-details-page, #block-views-rooms-suites-section-block div.views-field.views-field-view-node, #block-views-dining-section-block div.views-field.views-field-view-node, #block-views-activities-section-block div.views-field.views-field-view-node, #block-views-offers-section-block div.views-field.views-field-view-node, #block-views-partners-section-block div.views-field.views-field-view-node {
+#block-views-overview-section-block div.views-field.views-field-view-node, #block-views-overview-section-block div.views-field-field-link-to-details-page, #block-views-rooms-suites-section-block div.views-field.views-field-view-node, #block-views-dining-section-block div.views-field.views-field-view-node, #block-views-activities-section-block div.views-field.views-field-view-node, #block-views-offers-section-block div.views-field.views-field-view-node, #block-views-partners-section-block div.views-field-field-link-to-details-page-1 {
 	padding: 10px 15px;
 	font-size: 12px;
 	font-family: sans-serif;
