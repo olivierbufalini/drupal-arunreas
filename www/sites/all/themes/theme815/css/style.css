@@ -2126,7 +2126,7 @@ label.option {vertical-align:middle;}
 	font-family:Arial;
 }
 
-#block-views-overview-section-block div.views-field.views-field-title, #block-views-rooms-suites-section-block div.views-field.views-field-title, #block-views-dining-section-block div.views-field.views-field-title, #block-views-activities-section-block div.views-field.views-field-title, #block-views-offers-section-block div.views-field.views-field-title {
+#block-views-overview-section-block div.views-field.views-field-title, #block-views-rooms-suites-section-block div.views-field.views-field-title, #block-views-dining-section-block div.views-field.views-field-title, #block-views-activities-section-block div.views-field.views-field-title, #block-views-offers-section-block div.views-field.views-field-title, #block-views-partners-section-block div.views-field.views-field-title {
 	padding: 0 15px;
 	text-transform: uppercase;
 	font-size: 18px;
@@ -2134,7 +2134,7 @@ label.option {vertical-align:middle;}
 	-webkit-font-smoothing: antialiased;
 }
 
-#block-views-overview-section-block div.views-field.views-field-field-teaser, #block-views-rooms-suites-section-block div.views-field.views-field-field-teaser, #block-views-activities-section-block div.views-field.views-field-field-teaser {
+#block-views-overview-section-block div.views-field.views-field-field-teaser, #block-views-rooms-suites-section-block div.views-field.views-field-field-teaser, #block-views-activities-section-block div.views-field.views-field-field-teaser, #block-views-partners-section-block div.views-field.views-field-field-teaser {
 	padding: 10px 15px;
 	font-size: 12px;
 	font-family: sans-serif;
@@ -2155,14 +2155,14 @@ label.option {vertical-align:middle;}
 	min-height: 14px;
 }
 
-#block-views-overview-section-block div.views-field.views-field-view-node, #block-views-overview-section-block div.views-field-field-link-to-details-page, #block-views-rooms-suites-section-block div.views-field.views-field-view-node, #block-views-dining-section-block div.views-field.views-field-view-node, #block-views-activities-section-block div.views-field.views-field-view-node, #block-views-offers-section-block div.views-field.views-field-view-node {
+#block-views-overview-section-block div.views-field.views-field-view-node, #block-views-overview-section-block div.views-field-field-link-to-details-page, #block-views-rooms-suites-section-block div.views-field.views-field-view-node, #block-views-dining-section-block div.views-field.views-field-view-node, #block-views-activities-section-block div.views-field.views-field-view-node, #block-views-offers-section-block div.views-field.views-field-view-node, #block-views-partners-section-block div.views-field.views-field-view-node {
 	padding: 10px 15px;
 	font-size: 12px;
 	font-family: sans-serif;
 }
 
 
-#block-views-overview-section-block a, #block-views-rooms-suites-section-block a, #block-views-dining-section-block a, #block-views-activities-section-block a, #block-views-offers-section-block a {
+#block-views-overview-section-block a, #block-views-rooms-suites-section-block a, #block-views-dining-section-block a, #block-views-activities-section-block a, #block-views-offers-section-block a, #block-views-partners-section-block a  {
 	color: #716c5e;
 }
 
@@ -2259,6 +2259,11 @@ article.node-section-summary-page {
 }
 
 #block-views-dining-section-block div.grid-4.views-row {
+	min-height: 420px;
+	background-color: #FFFFFF;	
+}
+
+#block-views-partners-section-block div.grid-4.views-row {
 	min-height: 350px;
 	background-color: #FFFFFF;	
 }
